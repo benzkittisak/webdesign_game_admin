@@ -15,7 +15,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="d-flex w-100 navbar-logout justify-content-end align-items-center">
-        <Link to={process.env.PUBLIC_URL + "/admin"}>ออกจากระบบ</Link>
+        <Link to={process.env.PUBLIC_URL + "/"}>ออกจากระบบ</Link>
       </div>
     </nav>
   );
